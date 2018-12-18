@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var cart = { 
+  var itemObject = { 
     itemName: "itemName", itemPrice: (math.random(1) * (100 - 1) + 1)
     }; 
     for (var i = 0; item.length > i; i++) {
